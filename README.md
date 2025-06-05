@@ -4,7 +4,7 @@ A lightweight, multi-threaded TCP and UDP port scanner with banner grabbing, hos
 
 ---
 
-## Features
+## 🌟 Features
 
 - TCP and UDP port scanning
 - Banner grabbing for common services (HTTP, FTP, SSH, SMTP, MySQL, Redis, TLS cert info on HTTPS)
@@ -17,7 +17,7 @@ A lightweight, multi-threaded TCP and UDP port scanner with banner grabbing, hos
 
 ---
 
-## Usage
+## 🔧 Usage
 
 ```bash
 ~$ python .\portscanner.py -h
@@ -38,7 +38,7 @@ options:
   -n          Scan a /24 network instead of a single host (default: False)
 ```
 
-## Examples
+## 📜 Examples
 - Scan a single host's common TCP ports (1-1023):
 ```bash
 python portscanner.py 192.168.1.10
@@ -64,7 +64,7 @@ python portscanner.py 192.168.1.10 -P web
 python portscanner.py 8.8.8.8 -v -u
 ```
 
-## Installation
+## 🧰 Installation
 Requires Python 3.6+
 <br/>
 No external dependencies are needed (uses only standard library)
