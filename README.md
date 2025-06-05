@@ -1,3 +1,5 @@
+![demo](./demo.png)
+
 # Simple TCP/UDP Port Scanner
 
 A lightweight, multi-threaded TCP and UDP port scanner with banner grabbing, host detection and port profile support. Designed for fast network reconnaissance with helpful service version detection and network-wide scanning.
